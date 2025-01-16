@@ -19,7 +19,7 @@
     <!-- ==== WOW JS ==== -->
     <script src="assets/js/wow.min.js"></script>
     <script>
-      new WOW().init(); AIzaSyAaHfZWB2bT0Io9eh_to9cb-1cP4w4kon4
+      new WOW().init();
     </script>
   </head>
   <body>
@@ -67,7 +67,7 @@
                 <ul class="blcok lg:flex 2xl:ml-20">
                   <li class="group relative">
                     <a
-                      href="#home"
+                      href="index.html"
                       class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
                     >
                       Welcome
@@ -75,7 +75,7 @@
                   </li>
                   <li class="group relative">
                     <a
-                      href="#about"
+                      href="presentation.html"
                       class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Presentation
@@ -83,7 +83,7 @@
                   </li>
                   <li class="group relative">
                     <a
-                      href="#pricing"
+                      href="become_an_agent.html"
                       class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Bccome an Agent
@@ -91,7 +91,7 @@
                   </li>
                   <li class="group relative">
                     <a
-                      href="#team"
+                      href="https://docs.awdpay.com/"
                       class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                     >
                       AwdPay API
@@ -193,7 +193,14 @@
             
             <!-- <button onclick="translatePageToFrench()">Translate to French</button> -->
             <div class="flex items-center justify-end pr-16 lg:pr-0">
-              <label
+              <!-- Language Toggle Button -->
+              <button
+              id="languageToggle"
+              class="px-4 py-2 text-base font-medium text-white dark:text-white border bg-primary rounded-md hover:cursor-pointer"
+            >
+                FR
+              </button>
+              <!-- <label
                 for="themeSwitcher"
                 class="inline-flex cursor-pointer items-center"
                 aria-label="themeSwitcher"
@@ -264,7 +271,7 @@
                     </defs>
                   </svg>
                 </span>
-              </label>
+              </label> -->
               <div class="hidden sm:flex">
                 <a
                   href="signin.html"
@@ -2272,7 +2279,7 @@
                 <h3
                   class="mb-4 text-2xl font-semibold text-dark dark:text-white transition-colors duration-300 group-hover:text-primary"
                 >
-                AWDpay Agent: Unlock Benefits
+                AWDpay: Unlock +
                 </h3>
                 <p class="text-base text-body-color dark:text-dark-6">
                   Become an AWDpay Agent! Top up user accounts and manage multiple payment methods in one convenient wallet. Join now and enjoy amazing exclusive benefits.
@@ -2324,7 +2331,7 @@
                 <h3
                   class="mb-4 text-2xl font-semibold text-dark dark:text-white transition-colors duration-300 group-hover:text-primary"
                 >
-                KYC, Allows us to know our users.
+                KYC: Identify Our Users
                 </h3>
                 <p class="text-base text-body-color dark:text-dark-6">
                   KYC verifies user identities before or during service use, ensuring secure transactions. It protects our business and users from financial crime by confirming credentials.
@@ -2350,7 +2357,7 @@
                 <h3
                   class="mb-4 text-2xl font-semibold text-dark dark:text-white transition-colors duration-300 group-hover:text-primary"
                 >
-                Invite a friend with your referral link
+                Invite a Friend – Referral
                 </h3>
                 <p class="text-base text-body-color dark:text-dark-6">
                   Did you know that at AWDPAY,if you share your referral link with your friends,you earn 200 XOF on each person who registers with your link.
@@ -2403,7 +2410,7 @@
                 <h3
                   class="mb-4 text-2xl font-semibold text-dark dark:text-white transition-colors duration-300 group-hover:text-primary"
                 >
-                Turn Digital Money to Cash Fast – AwdPay
+                Digital to Cash – AwdPay
                 </h3>
                 <p class="text-base text-body-color dark:text-dark-6">
                   You can withdraw funds in two ways:
@@ -5113,11 +5120,9 @@
                       How Can We Help?
                     </h5>
                     <p class="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
+                      partnerawdpay@awdpay.com
                     </p>
-                    <p class="mt-1 text-base text-body-color dark:text-dark-6">
-                      contact@yourdomain.com
-                    </p>
+                    
                   </div>
                 </div>
               </div>
@@ -5143,7 +5148,7 @@
                       <strong>Monday to Friday</strong>
                     </p>
                     <p class="text-base text-body-color dark:text-dark-6">
-                      Morning : 08:00 12:00 GMT | Afternoon : 02:00 05:00 GMT                       
+                      Morning : 08:00 12:00 | Afternoon : 02:00 05:00                       
                     </p>
                   </div>
                 </div>
@@ -5170,7 +5175,7 @@
                       <strong>Saturday</strong>
                     </p>
                     <p class="mt-1 text-base text-body-color dark:text-dark-6">
-                      Morning : 09:00 12:00 GMT
+                      Morning : 09:00 12:00
                     </p>
                   </div>
                 </div>
@@ -5925,7 +5930,7 @@
     <!-- ====== Back To Top End -->
 
     <!-- ====== Made With Button Start -->
-    <a
+    <!-- <a
       target="_blank"
       rel="nofollow noopener"
       class="fixed bottom-8 left-4 z-[999] inline-flex items-center gap-[10px] rounded-lg bg-white px-[14px] py-2 shadow-2 dark:bg-dark-2 sm:left-9"
@@ -5947,7 +5952,7 @@
           class="hidden dark:block"
         />
       </span>
-    </a>
+    </a> -->
     <!-- ====== Made With Button End -->
 
     <!-- ====== All Scripts -->
@@ -5955,55 +5960,94 @@
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-      translatePageToFrench();
+      const apiKey = 'AIzaSyAaHfZWB2bT0Io9eh_to9cb-1cP4w4kon4'; // Replace with your API key
+      const apiUrl = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
 
-      async function translatePageToFrench() {
-        const apiKey = 'AIzaSyAaHfZWB2bT0Io9eh_to9cb-1cP4w4kon4'; // Replace with your API key
-        const apiUrl = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
+      let currentLang = 'fr'; // Initial language is French
 
-        // Get all text nodes inside the body
+      // Function to translate text using Google Translate API
+      async function translateText(text, sourceLang, targetLang) {
+        try {
+          const response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: text,
+              source: sourceLang,
+              target: targetLang,
+              format: 'text',
+            }),
+          });
+
+          const data = await response.json();
+          if (data && data.data && data.data.translations) {
+            return data.data.translations[0].translatedText;
+          }
+        } catch (error) {
+          console.error('Translation failed:', error);
+        }
+        return text; // Fallback to original text if translation fails
+      }
+
+      // Function to translate the entire page
+      async function translatePage(sourceLang, targetLang) {
         const bodyElements = document.body.querySelectorAll('*:not(script):not(style)');
+        const textNodes = [];
 
+        // Collect all text nodes
         for (const element of bodyElements) {
           if (element.childNodes.length > 0) {
             for (const node of element.childNodes) {
               if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() !== '') {
-                const englishText = node.textContent.trim();
-
-                try {
-                  // Translate the text
-                  const response = await fetch(apiUrl, {
-                    method: 'POST',
-                    headers: {
-                      'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                      q: englishText,
-                      source: 'en',
-                      target: 'fr',
-                      format: 'text',
-                    }),
-                  });
-
-                  const data = await response.json();
-                  console.log('API Response:', data);
-                  // Validate the API response
-                  if (data && data.data && data.data.translations && data.data.translations.length > 0) {
-                    const translatedText = data.data.translations[0].translatedText;
-                    node.textContent = translatedText; // Replace the original text with the translated text
-                  } else {
-                    console.error('Unexpected API response:', data);
-                  }
-                } catch (error) {
-                  console.error('Translation failed:', error);
-                }
+                textNodes.push({
+                  node: node,
+                  text: node.textContent.trim(),
+                });
               }
             }
           }
         }
-      } 
+
+        // Translate text nodes in batches
+        const batchSize = 50;
+        for (let i = 0; i < textNodes.length; i += batchSize) {
+          const batch = textNodes.slice(i, i + batchSize);
+          const texts = batch.map((tn) => tn.text);
+
+          const translatedTexts = await Promise.all(
+            texts.map((text) => translateText(text, sourceLang, targetLang))
+          );
+
+          // Replace original text with translated text
+          batch.forEach((tn, index) => {
+            tn.node.textContent = translatedTexts[index];
+          });
+
+          // Add a delay between batches to avoid rate limits
+          await new Promise((resolve) => setTimeout(resolve, 1000)); // 1-second delay
+        }
+      }
+
+      // Toggle language on button click
+      const languageToggle = document.getElementById('languageToggle');
+      languageToggle.addEventListener('click', async () => {
+        const targetLang = currentLang === 'en' ? 'fr' : 'en'; // Determine target language
+        await translatePage(currentLang, targetLang); // Translate from currentLang to targetLang
+        currentLang = targetLang; // Update the current language state
+
+        // Update button text
+        languageToggle.textContent = currentLang === 'en' ? 'FR' : 'EN';
+      });
+
+      // Translate the page to French on load
+      window.onload = async () => {
+        await translatePage('en', 'fr'); // Translate from English to French
+        languageToggle.textContent = 'EN'; // Set button text to "EN"
+      };
       // ==== for menu scroll
-      const pageLink = document.querySelectorAll(".ud-menu-scroll");
+      /* const pageLink = document.querySelectorAll(".ud-menu-scroll");
 
       pageLink.forEach((elem) => {
         elem.addEventListener("click", (e) => {
@@ -6013,7 +6057,7 @@
             offsetTop: 1 - 60,
           });
         });
-      });
+      }); */
 
       // section menu active
       function onScroll(event) {
@@ -6042,7 +6086,7 @@
         }
       }
 
-      window.document.addEventListener("scroll", onScroll);
+      //window.document.addEventListener("scroll", onScroll);
 
       // Testimonial
       const testimonialSwiper = new Swiper(".testimonial-carousel", {
